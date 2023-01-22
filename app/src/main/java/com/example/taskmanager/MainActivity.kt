@@ -44,25 +44,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-//@Composable
-//fun TextCompleted(textOne: String, textTwo: String) {
-//
-//
-//    Text(
-//        text = textOne,
-//        fontWeight = FontWeight.Bold,
-////        textAlign = TextAlign.Center
-//    )
-//
-//    Text(
-//        text = textTwo, fontSize = 18.sp,
-//        fontWeight = FontWeight.Bold,
-////        textAlign = TextAlign.Center
-//
-//    )
-
-
-//}
 
 @Composable
 fun ImageCompleted(textOne: String, textTwo: String) {
@@ -80,9 +61,6 @@ fun ImageCompleted(textOne: String, textTwo: String) {
                     .requiredSize(250.dp)
                     .align(Alignment.CenterHorizontally)
             )
-
-
-//        TextCompleted(textOne = textOne, textTwo = textTwo)
 
             Text(
                 text = textOne, fontWeight = FontWeight.Bold,
